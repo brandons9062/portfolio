@@ -36,6 +36,11 @@ class Navbar extends Component{
                                     <h4>PORTFOLIO</h4>
                                 </a>
                             </li>
+                            <li>
+                                <a href="#contactMe">
+                                    <h4>CONTACT ME</h4>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -5,6 +5,15 @@ body {
   height: 100%;
 }
 
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .navContainer{
     display: flex;
     justify-content: center;
@@ -42,4 +51,44 @@ body {
 .welcomeSubTitle{
     font-size: 25px;
     font-weight: bold;
+}
+
+.aboutMeContainer{
+    background: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.skillsContainer{
+    background: red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.portfolioContainer{
+    background: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contactMeContainer{
+    background: purple;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }

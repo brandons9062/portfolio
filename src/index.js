@@ -12,7 +12,9 @@ ReactDOM.render(
         <div>
             <Navbar />
             <Switch>
-                <App />
+                <a name="#top">
+                    <App />
+                </a>
             </Switch>
         </div>
     </BrowserRouter>
