@@ -16,7 +16,7 @@ class Navbar extends Component{
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav">
-                            <li className="active">
+                            <li>
                                 <a href="#top">
                                     <h4>WELCOME</h4>
                                 </a>

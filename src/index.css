@@ -54,17 +54,31 @@ a:hover {
 }
 
 .aboutMeContainer{
-    background: blue;
+    background: #F6FAF5;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    flex-direction: column;
+    color: #5B5B5B;
+}
+
+.aboutMePhoto{
+    background-image:url(imgs/AliviaAndI.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.aboutMeText{
+    width:75vw;
 }
 
 .skillsContainer{
-    background: red;
+    background: #5B5B5B;
     height: 100vh;
     display: flex;
     justify-content: center;
