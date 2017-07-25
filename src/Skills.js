@@ -4,10 +4,17 @@ class Skills extends Component {
     
     render(){
         return (
-            <div className="skillsContainer">
-                <div><h1>SKILLS</h1>
-                <h4>Text here please!</h4>
-                </div>
+            <div className="container skillsContainer">
+                <div className="row">
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">BYE</div>
+                    <div className="col-md-3">HI</div>
+                    <div className="col-md-3">BYE</div>
+                  </div>
             </div>
         )
     }
