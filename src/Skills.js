@@ -6,15 +6,23 @@ class Skills extends Component {
         return (
             <div className="container skillsContainer">
                 <div className="row">
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">BYE</div>
-                    <div className="col-md-3">HI</div>
-                    <div className="col-md-3">BYE</div>
-                  </div>
+                    <div className="col-md-3">
+                        <div className="javascriptIcon"></div>
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="javascriptIcon"></div>
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="javascriptIcon"></div>
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="javascriptIcon"></div>
+                        <h2>JavaScript</h2>
+                    </div>
+                </div>
             </div>
         )
     }

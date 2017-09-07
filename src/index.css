@@ -86,6 +86,16 @@ a:hover {
     align-items: center;
     text-align: center;
     color: white;
+    width: 100%;
+}
+
+.javascriptIcon{
+    background-image:url(imgs/Javascript-Icon.png);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    transform: translate(25%,0%);
 }
 
 .portfolioContainer{
